@@ -1,0 +1,20 @@
+{
+  "name": "implementation-pipeline",
+  "version": "1.0.0",
+  "description": "the principle of working with Middleware",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikhailYunak/implementation-pipeline.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikhailYunak/implementation-pipeline/issues"
+  },
+  "homepage": "https://github.com/MikhailYunak/implementation-pipeline#readme"
+}
