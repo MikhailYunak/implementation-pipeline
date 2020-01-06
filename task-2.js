@@ -22,8 +22,7 @@ const app = function (request) {
 
 // addTimestamp middleware
 const addTimestamp = function(request, next) {
-    Object.assign(request, { 'timestamp': new Date().toISOString() });
-    return next(request);
+    return {...next(request),  'timestamp': new Date().toISOString() };
 };
 
 // Middleware stack
